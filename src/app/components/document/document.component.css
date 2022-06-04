@@ -1,0 +1,24 @@
+:host()
+{
+    display:flex;
+    position:relative;
+    border-style: dashed;
+    width: 55%;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 1.1em;
+   /* background-color: #8BC6EC; */
+    background-color: #F0DBBF;
+    font-family: Ticketing;
+
+}
+
+#p_info_section > div{
+    margin: 1.5em 0;
+}
+
+#document_id{
+    transform-origin: top left;
+    transform: rotate(90deg);
+    width: 15%;
+}

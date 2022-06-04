@@ -1,0 +1,26 @@
+:host(){
+    
+    margin: 1em;
+    font-family: "Ticketing";
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+
+#encabezado > td{
+    padding: 1em;
+    border:solid black 2px;
+    text-align: center;
+}
+#contenido > td{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.aprobado{
+    color: green;
+}
+.reprobado{
+    color:red;
+}

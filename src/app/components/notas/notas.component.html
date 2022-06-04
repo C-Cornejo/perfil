@@ -1,0 +1,22 @@
+<table>
+    <tr id="encabezado">
+        <td >Materia</td>
+        <td >Test 1</td>
+        <td >Test 2</td>
+        <td >Test 3</td>
+        <td >Promedio</td>
+        <td>Status</td>
+    </tr>
+    <tr id="contenido" *ngFor="let current of notas">
+        <td>{{current.nombre}}</td>
+        <td>{{current.test1}}</td>
+        <td>{{current.test2}}</td>
+        <td>{{current.test3}}</td>
+        <td>{{current.avg | number:'2.2-2'}}</td>
+        <td *ngIf="current.aprobado" class="aprobado">Aprobado</td>
+        <td *ngIf="!current.aprobado" class="reprobado">Reprobado</td>
+    </tr>
+</table>
+
+
+

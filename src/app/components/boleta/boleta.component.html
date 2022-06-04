@@ -1,0 +1,6 @@
+<app-document [info]="this.estudiante_actual.info"></app-document>
+<app-notas [notas]="this.estudiante_actual.notas"></app-notas>
+<div class="botones">
+<button [disabled]="this.habilitarIzq" (click)="avanzarIzq()">Izquierda</button>
+<button [disabled]="this.habilitarDer" (click)="avanzarDer()">Derecha</button>
+</div>
